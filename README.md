@@ -29,6 +29,36 @@ It turns out that the following values make the formula almost perfectly fit the
 | _g_ | 4.63384381e+05   | 4.46372497e+05   |
 
 
+## Prerequisites
+
+ - Python 3.x
+ - Pipenv
+ 
+## Running the code
+
+Clone the repository, then enter the created directory:
+
+```
+git clone https://github.com/ola-ct/wilks.git
+cd wilks
+```
+
+Install required modules:
+
+```
+pipenv install
+```
+
+Open Jupyter notebook:
+
+```
+pipenv run jupyter notebook
+```
+
+A browser window containing the notebook should open.
+
+You can now run the code by pressing the "Run" button.
+
 ## License
 
 Copyright &copy; 2020 [Oliver Lau](mailto:oliver@ersatzworld.net)
