@@ -10,7 +10,7 @@ Unfortunately, the creator of the formula, Robert Wilks, CEO of Powerlifting Aus
 hasn't published the formula on which the coefficients are based on.
 Only two tables of coefficients are [available](https://powerliftingaustralia.com/wilks-formula/), one for men, one for women.
 
-The code in this Jupyter notebook extracts the coefficients from those tables (see the files wilks-men.tsv and wilks-women.tsv) and fits a reciprocal polynomial on them:
+The code in this Jupyter notebook extracts the coefficients from those tables (see the files wilks-men.tsv and wilks-women.tsv) and fits the following reciprocal polynomial on them:
 
 coeff = _g_ / (_a_ + _b_ ⋅ _x_ + _c_ ⋅ _x_<sup>2</sup> + _d_ ⋅ _x_<sup>3</sup> + _e_ ⋅ _x_<sup>4</sup> + _f_ ⋅ _x_<sup>5</sup>)
 
