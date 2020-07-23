@@ -12,7 +12,7 @@ Only two tables of coefficients are [available](https://powerliftingaustralia.co
 
 The code in this Jupyter notebook extracts the coefficients from those tables (see the files wilks-men.tsv and wilks-women.tsv) and fits a reciprocal polynomial on them:
 
-_coeff = g / (a + b⋅x + c⋅x<sup>2</sup> + d⋅x<sup>3</sup> + e⋅x<sup>4</sup> + f⋅x<sup>5</sup>)_
+coeff = _g_ / (_a_ + _b_ ⋅ _x_ + _c_ ⋅ _x_<sup>2</sup> + _d_ ⋅ _x_<sup>3</sup> + _e_ ⋅ _x_<sup>4</sup> + _f_ ⋅ _x_<sup>5</sup>)
 
 Where _x_ is the athlete's body weight and the independent parameters _a_, _b_, _c_, … _g_ are to optimized to fit the curve to the given coefficients.
 
