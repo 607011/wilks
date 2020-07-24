@@ -1,10 +1,11 @@
-# wilks
+# Wilks
 
 _Jupyter notebook to fit a reciprocal polynomial on Wilks coefficients_
 
 The Wilks coefficients are used to compare the weights lifted by athletes of different body weights.
-The weight lifted is multiplied by a coefficient according to the body weight.
+The weight lifted is multiplied by the coefficient corresponding to the body weight.
 The higher the product, the better the athlete has performed.
+All weights need to be expressed in kilogram.
 
 Unfortunately, the creator of the formula, Robert Wilks, CEO of Powerlifting Australia,
 hasn't published the formula on which the coefficients are based on.
@@ -14,7 +15,7 @@ The code in this Jupyter notebook extracts the coefficients from those tables (s
 
 coeff = _g_ / (_a_ + _b_ ⋅ _x_ + _c_ ⋅ _x_<sup>2</sup> + _d_ ⋅ _x_<sup>3</sup> + _e_ ⋅ _x_<sup>4</sup> + _f_ ⋅ _x_<sup>5</sup>)
 
-Where _x_ is the athlete's body weight and the independent parameters _a_, _b_, _c_, … _g_ are to optimized to fit the curve to the given coefficients.
+Where _x_ is the athlete's body weight in kilogram and the independent parameters _a_, _b_, _c_, … _g_ are to optimized to fit the curve to the given coefficients.
 
 It turns out that the following values make the formula almost perfectly fit the coefficients:
 
